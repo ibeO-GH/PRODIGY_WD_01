@@ -350,28 +350,29 @@ p.social-text {
   margin: 3rem 0;
 }
 
-.text-animation {
-  font-size: 3rem;
+#contact .text-animation {
+  font-size: 3.5rem;
   font-weight: 600;
   min-width: 280px;
 }
 
-.text-animation span {
+#contact .text-animation span {
   position: relative;
   font-family: "Style Script", cursive;
 }
 
-.text-animation span::before {
-  content: "neonTASTE";
+#contact .text-animation span::before {
+  content: "Follow us to stay";
   color: var(--main-color);
   animation: words 20s infinite;
 }
 
-.text-animation span::after {
+#contact .text-animation span::after {
   content: "";
+  background-color: #091b29;
   position: absolute;
   width: calc(100% + 8px);
-  height: 5rem;
+  height: 100%;
   border-left: 2px solid #f1f1f1;
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
