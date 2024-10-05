@@ -48,6 +48,7 @@ html::-webkit-scrollbar-thumb {
   background: var(--main-color);
 }
 
+/* navigation styling*/
 nav {
   display: flex;
   justify-content: space-between;
@@ -107,6 +108,7 @@ span.text-shade {
   color: var(--main-color); /* Change this color on hover */
 }
 
+/* hero section styling*/
 #home {
   position: relative;
   display: flex;
@@ -168,6 +170,7 @@ button.page-btn:hover {
   scale: 1.05;
 }
 
+/* about section styling*/
 #about {
   display: flex;
   flex-direction: column;
@@ -232,6 +235,7 @@ button.page-btn:hover {
   scale: 1.05;
 }
 
+/* menu section styling*/
 #menu {
   padding: 5rem;
   background: #0d2435;
@@ -313,6 +317,7 @@ button.page-btn:hover {
   padding-top: 0.5rem;
 }
 
+/* contact section styling*/
 #contact {
   display: flex;
   flex-direction: column;
@@ -350,6 +355,7 @@ p.social-text {
   margin: 3rem 0;
 }
 
+/* typing effect styling*/
 #contact .text-animation {
   font-size: 3.5rem;
   font-weight: 600;
