@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaquerries.css" />
+    <script src="./script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <h1><span class="text-shade">Neon</span>TASTE</h1>
+      </div>
+      <div class="burger" onclick="toggleNav()">&#9776;</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <p class="stylish-font">Welcome to Our delicious cusines</p>
+      <h1>Where every flavor tells a story.</h1>
+      <p class="text">
+        Experience flavors like never before and enjoy fine dining for the
+        traditional and modern palate. Come dine in style.
+      </p>
+      <button type="button" class="page-btn">learn more</button>
+    </section>
+    <section id="about">
+      <p class="stylish-font">Special moments</p>
+      <h2>About Us</h2>
+      <div class="content-container">
+        <div class="content-image">
+          <img
+            src="./assets/CS_JV_Jun24_Butchers_Cut_Steak_0022.jpg"
+            alt="steak"
+          />
+        </div>
+        <div class="content-text">
+          <p class="stylish-font">Taste Perception</p>
+          <h3>traditional & modern</h3>
+          <p class="txt">
+            Spicing up your taste buds. Lavish dining you've always wished for.
+          </p>
+          <button type="button" class="page-btn">read more</button>
+        </div>
+        <div class="content-image">
+          <img
+            src="./assets/JO_CATHERINE_ST_FOOD_STARTERS_FEASTING_1_0159.jpg"
+            alt="steak"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="menu-container">
+        <div class="menu-image">
+          <img src="./assets/menuSec.jpg" alt="food pic" />
+        </div>
+        <div class="menu-text">
+          <p class="stylish-font">Our healthy food</p>
+          <h2>Our Special</h2>
+          <ul>
+            <li>
+              <span class="menu-item">creamy chicken soup</span>
+              <span class="price">$50</span>
+              <p>Come for the food, enjoy the atmosphere.</p>
+            </li>
+            <li>
+              <span class="menu-item">boiled eggs on toast</span>
+              <span class="price">$60</span>
+              <p>Come for the food, enjoy the atmosphere.</p>
+            </li>
+            <li>
+              <span class="menu-item">fines statares steaks</span>
+              <span class="price">$90</span>
+              <p>Come for the food, enjoy the atmosphere.</p>
+            </li>
+            <li>
+              <span class="menu-item">best roast rumsteak</span>
+              <span class="price">$35</span>
+              <p>Come for the food, enjoy the atmosphere.</p>
+            </li>
+            <li>
+              <span class="menu-item">goat meat pepersoup</span>
+              <span class="price">$75</span>
+              <p>Come for the food, enjoy the atmosphere.</p>
+            </li>
+          </ul>
+          <button type="button" class="page-btn">view more</button>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>connect with us</h2>
+      <div class="social-media">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p class="text-animation" id="mq-320">
+        <span></span>
+        <!-- Follow us to stay in the loop on what's new with
+        <span class="text-shade">Neon</span>TASTE -->
+      </p>
+      <p class="social-text"><span class="text-shade">Neon</span>TASTE</p>
+    </section>
+  </body>
+</html>
