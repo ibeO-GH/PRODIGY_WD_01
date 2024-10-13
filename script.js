@@ -9,8 +9,14 @@ window.addEventListener("scroll", function () {
 });
 
 // creating function for toggle nav
-function toggleNav() {
-  const navLinks = document.getElementById("navLinks");
+// function toggleNav() {
+//   const navLinks = document.getElementById("navLinks");
 
-  navLinks.classList.toggle("active");
-}
+//   navLinks.classList.toggle("active");
+// }
+
+let navLink = document.getElementById("navLinks");
+let menuBtn = document.getElementById("menu-btn");
+menuBtn.addEventListener("click", function () {
+  navLink.classList.toggle("visible");
+});
